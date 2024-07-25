@@ -1,0 +1,47 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper {
+  width: 100%;
+  height: 600px;
+  margin: 20px 0;
+}
+.mySwiper{
+  height: 50px;
+  border-radius: 10px;
+}
+.swiper-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}

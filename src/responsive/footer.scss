@@ -1,0 +1,17 @@
+@media screen and (max-width:1410px){
+    #sc2{
+        display: none;
+    }
+}
+@media screen and (max-width:1025px){
+    #sc1{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+@media screen and (max-width:750px){
+    #sc3{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

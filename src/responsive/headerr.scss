@@ -1,0 +1,33 @@
+@media screen and (max-width:1350px){
+    #s6{
+        display: none;
+    }
+}
+@media screen and (max-width:1280px){
+    #s5{
+        display: none;
+    }
+}
+@media screen and (max-width:1170px){
+    #s4{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px){
+    #hidden{
+        display: flex;
+    }
+}
+@media screen and (max-width:935px){
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #s2,#s1{
+        display: none;
+    }
+    #s3{
+        min-width: auto;
+    }
+}

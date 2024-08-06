@@ -21,8 +21,8 @@ const Header = () => {
   };
 
   return (
-    <div className="max-w-[1400px] m-auto ">
-      <header className="flex items-center gap-[27px] p-5 px-[35px] bg-white w-full py-[40px] ">
+    <div className="max-w-[1400px] mx-auto ">
+      <header className="flex items-center gap-[27px] p-5 px-[35px] bg-white w-[320px] sm:w-full py-[40px] ">
         <Link to="/" id="s1">
           <img
             src="https://www.gazeta.uz/media/img/2022/09/kLwV5A16629763473184_b.jpg"

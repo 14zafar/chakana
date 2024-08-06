@@ -10,7 +10,7 @@ import "./responsive/headerr.scss"
 
 const HeaderBottom = () => {
   return (
-    <div className=" fixed bottom-0 w-full bg-red-700 text-white h-[60px] justify-between items-center z-50 p-[10px] cursor-pointer hidden" id="hidden">
+    <div className=" fixed bottom-0 w-[330px] sm:w-full bg-red-700 text-white h-[60px] justify-between items-center z-50 p-[10px] cursor-pointer hidden" id="hidden">
       <Link to="/" className="block text-center">
         <FaHome className="text-[30px]" />
       </Link>

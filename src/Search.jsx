@@ -16,7 +16,7 @@ const Search = () => {
   return (
     <form onSubmit={handleSearch}>
       <input
-        className="h-[50px] px-[20px] border-[#c56064] border-[1px] rounded-md w-[100%]"
+        className="h-[50px] px-[20px] border-[#c56064] border-[1px] rounded-md w-[] sm:w-[100%]"
         type="text"
         placeholder=" qidiring..."
         name="search"
